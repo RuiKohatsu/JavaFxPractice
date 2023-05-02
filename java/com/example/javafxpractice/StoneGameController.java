@@ -87,7 +87,7 @@ public class StoneGameController {
                     stone.setText("0");
                 } else if (player.getText().equals("Aのターンです")) {
                     symbol.setText("");
-                    player.setText("player：B");
+                    winner.setText("player：B");
                     looser.setText("player：A");
                     stone.setText("0");
                 }
